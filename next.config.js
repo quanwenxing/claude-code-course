@@ -7,7 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/claude-code-course/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/claude-code-course' : '',
   basePath: process.env.NODE_ENV === 'production' ? '/claude-code-course' : '',
 }
 
